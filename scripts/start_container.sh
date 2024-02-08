@@ -5,4 +5,4 @@ set -e
 docker pull venkateshkaranam/codebuild-repo
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 venkateshkaranam/codebuild-repo:1.0
+docker run -d -p 5000:5000 venkateshkaranam/codebuild-repo
