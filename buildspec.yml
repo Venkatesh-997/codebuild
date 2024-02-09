@@ -26,4 +26,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: ../codepipeline-ap-south-1-958498675400
+  base-directory: ../testpipeline
