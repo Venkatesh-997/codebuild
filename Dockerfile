@@ -7,6 +7,8 @@ WORKDIR /app
 # Copy the requirements file
 COPY requirements.txt .
 
+RUN mkdir dir
+
 # Install the project dependencies
 RUN pip install -r requirements.txt
 
